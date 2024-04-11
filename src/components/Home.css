@@ -1,0 +1,57 @@
+.result-btn {
+  padding: 9px 25px;
+  background: rgb(248, 92, 92);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.1s ease 0s;
+}
+.result-btn:hover {
+  background: #fff;
+  color: rgba(248, 79, 79, 0.863);
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container {
+  /* display: flex; */
+  /* justify-content: center; */
+  height: 100vh;
+  /* align-items: center; */
+}
+.mrl10 {
+  margin-left: 10px;
+}
+.slider-image {
+  width: 90%;
+  height: 60vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  display: block;
+  background-image: url("../Assets/1.svg");
+  background-size: 100% 100%;
+  animation: slider 12s infinite ease;
+}
+@keyframes slider {
+  0% {
+    background-image: url("../Assets/1.svg");
+    background-size: 100% 100%;
+  }
+  35% {
+    background-image: url("../Assets/2.svg");
+    background-size: 100% 100%;
+  }
+  75% {
+    background-image: url("../Assets/3.svg");
+    background-size: 100% 100%;
+  }
+}
+.button-box {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1048px) {
+}
